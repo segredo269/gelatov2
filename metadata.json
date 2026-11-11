@@ -1,0 +1,6 @@
+{
+  "name": "Mestre Sorveteiro - Sorvetes Artesanais, Picolés e Gelateria",
+  "description": "Fábrica e sorveteria artesanal em Belo Horizonte. Sorvetes cremosos, picolés tradicionais, paletas recheadas, açaí especial e linha atacado com experiência 3D imersiva.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

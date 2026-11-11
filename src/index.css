@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Custom scrollbar and smooth behaviors */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default focus outline and replace with clean ring */
+:focus-visible {
+  outline: 2px solid #ea580c;
+  outline-offset: 2px;
+}
